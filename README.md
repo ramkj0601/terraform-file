@@ -1,20 +1,5 @@
-terraform to create a ec2 instance using aws
-Create a file filename.tf
-#inside a file
-  need to provide a provider
-     provider "aws" {
-     region = "provide the region name"
-     }
-  need to provide the resource
-     resource "aws_instance" "any name" {
-     ami = "ami code of amazone linux or any OS"
-    instance type ="required type"
-    tags = {
-    "Name" = "Name of an instance to be created"
-   }
- }
-Save a file using a command
-esc :wq!
+To execute main.tf file, Use below Commands.
+
 # To initiate a terraform use 
 command :- terraform init
 
